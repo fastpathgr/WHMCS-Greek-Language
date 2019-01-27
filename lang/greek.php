@@ -801,7 +801,7 @@ $_LANG["telesigninvalidpinmessage"] = "Αποτυχία Επαλήθευσης P
 $_LANG["telesignmessage"] = "Επαλήθευση τηλεφώνου ξεκίνησε για τον αριθμό %s. Παρακαλώ περιμένετε...";
 $_LANG["telesignphonecall"] = "Κλήση τηλεφώνου";
 $_LANG["telesignpin"] = "Πληκτρολογήστε τον PIN σας: ";
-$_LANG["telesignsms"] = "SMS";
+$_LANG["telesignsms"] = "Sms";
 $_LANG["telesignsmstextmessage"] = "Σας ευχαριστούμε που χρησιμοποιήσατε το σύστημα επαλήθευσης SMS. Ο κωδικός σας είναι: %s Παρακαλώ εισάγετε τον κωδικό στον υπολογιστή σας τώρα.!";
 $_LANG["telesigntitle"] = "TeleSign τηλεφωνική επαλήθευση.";
 $_LANG["telesigntype"] = "Επιλέξτε τον τύπο επαλήθευσης για τον αριθμό %s:";
@@ -2146,5 +2146,550 @@ $_LANG['orderForm']['shortPerYears'] = "/:yearsyrs";
 $_LANG['domainCheckerSalesGroup']['sale'] = "Προσφορά";
 $_LANG['domainCheckerSalesGroup']['hot'] = "Δημοφιλές";
 $_LANG['domainCheckerSalesGroup']['new'] = "Νέο";
+
+
+
+
+
+/////////////// New items from 7.7.0 below this line ///////////////
+
+
+
+
+
+$_LANG['clientareapendingregistration'] = "Pending Registration";
+$_LANG['newslettersubscribed'] = "You have been successfully subscribed to our mailing list.";
+$_LANG['emailMarketingAlreadyOptedIn'] = "You are already subscribed to our mailing list.";
+$_LANG['emailMarketingAlreadyOptedOut'] = "You are already unsubscribed from our mailing list.";
+$_LANG['manageSubscription'] = "Manage Subscription";
+$_LANG['domainsPendingRegistration'] = "Pending Registration";
+$_LANG['upgradeSameProductMustExtendCycle'] = "To upgrade your billing cycle, please choose a cycle that is greater than your current billing cycle.";
+$_LANG['orderForm']['promoCycles'] = "Expires after :cycles billing period/s";
+
+
+$_LANG['pricing']['browseExtByCategory'] = "Browse extensions by category";
+$_LANG['pricing']['register'] = "New Price";
+$_LANG['pricing']['transfer'] = "Transfer";
+$_LANG['pricing']['renewal'] = "Renewal";
+$_LANG['pricing']['selectExtCategory'] = "Please choose a category from above.";
+$_LANG['pricing']['noExtensionsDefined'] = "No extensions available";
+
+$_LANG['navStore'] = "Store";
+$_LANG['navBrowseProductsServices'] = "Browse All";
+
+$_LANG['navWebsiteSecurity'] = "Website & Security";
+$_LANG['navMarketConnectService']['symantec'] = "SSL Certificates";
+$_LANG['navMarketConnectService']['weebly'] = "Website Builder";
+$_LANG['navMarketConnectService']['spamexperts'] = "E-mail Services";
+
+$_LANG['store']['emailServices']['title'] = "E-mail Services";
+$_LANG['store']['ssl']['title'] = "SSL Certificates";
+$_LANG['store']['ssl']['dv']['title'] = "Domain Validated SSL";
+$_LANG['store']['ssl']['ov']['title'] = "Organization Validation SSL";
+$_LANG['store']['ssl']['ev']['title'] = "Extended Validation SSL";
+$_LANG['store']['ssl']['wildcard']['title'] = "Wildcard SSL";
+$_LANG['store']['websiteBuilder']['title'] = "Website Builder";
+$_LANG['store']['configure']['configureProduct'] = "Configure Product";
+
+$_LANG['store']['ssl']['dv']['tagline'] = "Secure your website in just a few minutes!";
+$_LANG['store']['ssl']['dv']['descriptionTitle'] = "What is Standard DV SSL?";
+$_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>Domain Validation certificates offer an economical and quick way to implement SSL to your website. Domain Validated certificates verify you own the domain, but do not perform any additional organization level validation.</p><p>Domain Validated certificates are ideal for personal websites, blogs and social media, or any sites that are not transmitting private and confidential information.  A Domain Validated certificate activates the browser padlock and enables the use of https to assure your website visitors and customers that you take their privacy seriously.</p>";
+
+$_LANG['store']['ssl']['ov']['tagline'] = "High assurance SSL shows website visitors your authenticated identity";
+$_LANG['store']['ssl']['ov']['descriptionTitle'] = "What is Organization Validation SSL?";
+$_LANG['store']['ssl']['ov']['descriptionContent'] = "<p>Organization Validated SSL Certificates provide instant identity confirmation and strong SSL protection for your website and business.</p><p>OV SSL is an organization validated certificate that gives your website a step up in credibility over domain validated SSL Certificates. It activates the browser padlock and https, shows your corporate identity, and assures your customers that you take security very seriously. Site visitors can verify that the website is operated by a legitimate company and is not an imposter site.</p>";
+
+$_LANG['store']['ssl']['ev']['tagline'] = "Activate the green address bar for the highest trust and conversions";
+$_LANG['store']['ssl']['ev']['descriptionTitle'] = "What is Extended Validation SSL?";
+$_LANG['store']['ssl']['ev']['descriptionContent'] = "<p>EV SSL is an Extended Validation Certificate, the highest class of SSL available today and gives more credibility and trust to your website compared to using an organization or domain validated SSL Certificate.</p><p>Extended Validation SSL activates the green address bar and displays your company or organization name in the browser address bar. These prominent visual security indicators let visitors know that extra steps were taken to confirm the site they're visiting, increasing user trust in your website and its credibility β€“ this is why most large companies and organizations choose EV certificates.</p>";
+
+$_LANG['store']['ssl']['wildcard']['tagline'] = "Secure unlimited subdomains on a single certificate.";
+$_LANG['store']['ssl']['wildcard']['descriptionTitle'] = "What is a Wildcard SSL Certificate?";
+$_LANG['store']['ssl']['wildcard']['descriptionContent'] = "<p>Wildcard SSL allows you to secure an unlimited number of subdomains on a single certificate. Itβ€™s a great solution for anyone who hosts or manages multiple sites or pages that exist on the same domain. The one-time cost of the certificate covers you for additional subdomains you may add in the future.</p><p>Unlike a standard SSL Certificate that is issued to a single Fully Qualified Domain Name only, e.g. www.yourdomain.com, which means it can only be used to secure the exact domain to which it has been issued, a Wildcard SSL Certificate is issued to *.yourdomain.com, where the asterisk represents all possible subdomains.</p><p>Wildcard SSL is an option available for DV and OV SSL Certificates.</p>";
+
+$_LANG['store']['websiteBuilder']['headline'] = "Building a Website Has Never Been Easier";
+$_LANG['store']['websiteBuilder']['tagline'] = "Create the perfect site with powerful drag and drop tools";
+$_LANG['store']['websiteBuilder']['introduction'] = "Weeblyβ€™s drag and drop website builder makes it easy to create a powerful, professional website without any technical skills. Over 40 million entrepreneurs and small businesses have already used Weebly to build their online presence with a website, blog or store.";
+
+$_LANG['store']['emailServices']['headline'] = "Email Security, Built for You";
+$_LANG['store']['emailServices']['tagline'] = "Take back control of your inbox";
+$_LANG['store']['emailServices']['blockSpamHeadline'] = "Block nearly 100% of viruses, malware and spam before they ever reach your inbox";
+
+$_LANG['pricingCycleShort']['monthly'] = "mo";
+$_LANG['pricingCycleShort']['quarterly'] = "3mo";
+$_LANG['pricingCycleShort']['semiannually'] = "6mo";
+$_LANG['pricingCycleShort']['annually'] = "yr";
+$_LANG['pricingCycleShort']['biennially'] = "2yrs";
+$_LANG['pricingCycleShort']['triennially'] = "3yrs";
+$_LANG['pricingCycleLong']['monthly'] = "1 Month";
+$_LANG['pricingCycleLong']['quarterly'] = "3 Months";
+$_LANG['pricingCycleLong']['semiannually'] = "6 Months";
+$_LANG['pricingCycleLong']['annually'] = "1 Year";
+$_LANG['pricingCycleLong']['biennially'] = "2 Years";
+$_LANG['pricingCycleLong']['triennially'] = "3 Years";
+
+$_LANG['navManageSsl'] = "Manage SSL Certificates";
+
+$_LANG['invoicesPaymentPending'] = "Payment Pending";
+
+$_LANG['ssl']['changeApproverEmail'] = "Change Approver Email";
+$_LANG['ssl']['reissueCertificate'] = "Reissue Certificate";
+$_LANG['ssl']['retrieveCertificate'] = "Retrieve Certificate";
+
+$_LANG['upgradeCredit'] = "Upgrade Credit";
+$_LANG['upgradeCreditDescription'] = "Calculation based on :daysRemaining unused days of :totalDays totals days in the current billing cycle.";
+
+$_LANG['orderForm']['domainExtensionTransferNotSupported'] = "Your domain is not supported for transfer to us at this time. Please try another domain.";
+$_LANG['orderForm']['domainExtensionTransferPricingNotConfigured'] = "Your domain is not eligible for transfer to us. Please try another domain.";
+
+$_LANG['remoteAuthn']['success'] = 'Success!';
+$_LANG['remoteAuthn']['errorExclamation'] = 'Error!';
+$_LANG['remoteAuthn']['error'] = 'Error';
+$_LANG['remoteAuthn']['linkInitiated'] = 'Link Initiated!';
+$_LANG['remoteAuthn']['areYouSure'] = 'Are you sure?';
+$_LANG['remoteAuthn']['yesUnlinkIt'] = 'Yes, unlink it!';
+$_LANG['remoteAuthn']['unlinked'] = 'Unlinked!';
+$_LANG['remoteAuthn']['unavailable'] = 'is unavailable at this time. Please try again later.';
+$_LANG['remoteAuthn']['connectError'] = 'We were unable to connect your account. Please contact your system administrator.';
+$_LANG['remoteAuthn']['completeSignIn'] = 'Please complete sign in with your chosen service provider.';
+$_LANG['remoteAuthn']['redirecting'] = 'Automatic sign-in successful! Redirecting...';
+$_LANG['remoteAuthn']['accountNowLinked'] = 'Your account is now linked with your :displayName account.';
+$_LANG['remoteAuthn']['oneTimeAuthRequired'] = 'Please complete sign in to associate this service with your existing account. You will only have to do this once.';
+$_LANG['remoteAuthn']['completeRegistrationForm'] = 'Please complete the registration form below.';
+$_LANG['remoteAuthn']['completeNewAccountForm'] = 'Please complete your new account information.';
+$_LANG['remoteAuthn']['linkedToAnotherClient'] = 'This account is already connected to an existing account with us. Please choose a different account at the third party authentication provider.';
+$_LANG['remoteAuthn']['alreadyLinkedToYou'] = 'This account is already connected to your account with us. Please choose a different account at the third party authentication provider.';
+$_LANG['remoteAuthn']['saveTimeByLinking'] = 'Save time by signing up using an existing account with any of the services below.';
+$_LANG['remoteAuthn']['unlinkDesc'] = 'This permanently unlinks the authorized account.';
+$_LANG['remoteAuthn']['mayHaveMultipleLinks'] = 'Connect your account with any of the services below to simplify your sign-in experience. We only use this information to verify your account and will never post on your behalf.';
+$_LANG['remoteAuthn']['titleSignUpVerb'] = 'Sign Up';
+$_LANG['remoteAuthn']['titleOr'] = 'Or';
+$_LANG['remoteAuthn']['titleLinkedAccounts'] = 'Linked Accounts';
+$_LANG['remoteAuthn']['provider'] = 'Provider';
+$_LANG['remoteAuthn']['name'] = 'Name';
+$_LANG['remoteAuthn']['emailAddress'] = 'Email Address';
+$_LANG['remoteAuthn']['actions'] = 'Actions';
+$_LANG['remoteAuthn']['noLinkedAccounts'] = 'No linked accounts found';
+$_LANG['remoteAuthn']['signInWith'] = 'Sign in with :provider';
+$_LANG['remoteAuthn']['connectWith'] = 'Connect with :provider';
+$_LANG['remoteAuthn']['signUpWith'] = 'Sign Up with :provider';
+
+$_LANG['unlink'] = "Unlink";
+
+$_LANG['invoicePaymentSuccessAwaitingNotify'] = "Thank you for completing the payment process. We are awaiting notification to confirm the payment you just made. We will send you an email confirmation as soon as this has been received.";
+
+$_LANG['errorPage']['404']['title'] = "Oops!";
+$_LANG['errorPage']['404']['subtitle'] = "We couldn't find that page";
+$_LANG['errorPage']['404']['description'] = "Please try navigating using the options below.";
+$_LANG['errorPage']['404']['home'] = "Homepage";
+$_LANG['errorPage']['404']['submitTicket'] = "Contact Support";
+
+$_LANG['creditCard']['removeDescription'] = "Are you sure you wish to remove your credit card details?";
+
+$_LANG['marketConnect']['weebly']['ftpHost'] = "FTP Host";
+$_LANG['marketConnect']['weebly']['ftpUsername'] = "FTP Username";
+$_LANG['marketConnect']['weebly']['ftpPassword'] = "FTP Password";
+$_LANG['marketConnect']['weebly']['ftpPath'] = "FTP Path";
+$_LANG['marketConnect']['weebly']['updateFtp'] = "Update FTP Credentials";
+$_LANG['marketConnect']['weebly']['manage'] = "Login to Weebly Site Builder";
+
+$_LANG['domainChecker']['contactSupport'] = "Contact Support to Purchase";
+
+$_LANG['cart']['availableCreditBalance'] = "Your available credit balance is :amount.";
+$_LANG['cart']['applyCreditAmount'] = "Apply <span>:amount</span> from my credit balance to this order and I will pay the remaining amount via the payment method selected below.";
+$_LANG['cart']['applyCreditAmountNoFurtherPayment'] = "Apply <span>:amount</span> from my credit balance to this order. No further payment will be due.";
+$_LANG['cart']['applyCreditSkip'] = "Do not apply any credit from my credit balance to this order. I will pay for it using the payment method selected below.";
+
+$_LANG['dateTime']['monday'] = "Monday";
+$_LANG['dateTime']['tuesday'] = "Tuesday";
+$_LANG['dateTime']['wednesday'] = "Wednesday";
+$_LANG['dateTime']['thursday'] = "Thursday";
+$_LANG['dateTime']['friday'] = "Friday";
+$_LANG['dateTime']['saturday'] = "Saturday";
+$_LANG['dateTime']['sunday'] = "Sunday";
+$_LANG['dateTime']['mon'] = "Mon";
+$_LANG['dateTime']['tue'] = "Tue";
+$_LANG['dateTime']['wed'] = "Wed";
+$_LANG['dateTime']['thu'] = "Thu";
+$_LANG['dateTime']['fri'] = "Fri";
+$_LANG['dateTime']['sat'] = "Sat";
+$_LANG['dateTime']['sun'] = "Sun";
+$_LANG['dateTime']['th'] = "th";
+$_LANG['dateTime']['nd'] = "nd";
+$_LANG['dateTime']['rd'] = "rd";
+$_LANG['dateTime']['st'] = "st";
+$_LANG['dateTime']['january'] = "January";
+$_LANG['dateTime']['february'] = "February";
+$_LANG['dateTime']['march'] = "March";
+$_LANG['dateTime']['april'] = "April";
+$_LANG['dateTime']['may'] = "May";
+$_LANG['dateTime']['june'] = "June";
+$_LANG['dateTime']['july'] = "July";
+$_LANG['dateTime']['august'] = "August";
+$_LANG['dateTime']['september'] = "September";
+$_LANG['dateTime']['october'] = "October";
+$_LANG['dateTime']['november'] = "November";
+$_LANG['dateTime']['december'] = "December";
+$_LANG['dateTime']['jan'] = "Jan";
+$_LANG['dateTime']['feb'] = "Feb";
+$_LANG['dateTime']['mar'] = "Mar";
+$_LANG['dateTime']['apr'] = "Apr";
+$_LANG['dateTime']['may'] = "May";
+$_LANG['dateTime']['jun'] = "Jun";
+$_LANG['dateTime']['jul'] = "Jul";
+$_LANG['dateTime']['aug'] = "Aug";
+$_LANG['dateTime']['sept'] = "Sept";
+$_LANG['dateTime']['oct'] = "Oct";
+$_LANG['dateTime']['nov'] = "Nov";
+$_LANG['dateTime']['dec'] = "Dec";
+$_LANG['dateTime']['AM'] = "AM";
+$_LANG['dateTime']['PM'] = "PM";
+$_LANG['dateTime']['am'] = "am";
+$_LANG['dateTime']['pm'] = "pm";
+
+$_LANG['emailMarketing']['joinOurMailingList'] = "Join our mailing list";
+
+$_LANG['edit'] = "Edit";
+$_LANG['thankYou'] = "Thank You";
+
+$_LANG['domainGracePeriodFeeInvoiceItem'] = "Domain Renewal Fee in Grace Period for :domainName";
+$_LANG['domainRedemptionPeriodFeeInvoiceItem'] = "Domain Renewal Fee in Redemption Grace Period for :domainName";
+$_LANG['gracePeriod'] = "Grace Period";
+$_LANG['redemptionPeriod'] = "Redemption Period";
+$_LANG['domainsExpiringSoon'] = "Expiring Soon";
+$_LANG['expiresToday'] = "Expiring Today";
+$_LANG['clientareagrace'] = "Grace Period (Expired)";
+$_LANG['clientarearedemption'] = "Redemption Period (Expired)";
+$_LANG['domainRenewal']['availablePeriods'] = "Available Renewal Periods";
+$_LANG['domainRenewal']['unavailable'] = "Domain Renewal Unavailable";
+$_LANG['domainRenewal']['renewingDomains'] = "Renew Your Domains";
+$_LANG['domainRenewal']['graceFee'] = "Grace Fee";
+$_LANG['domainRenewal']['redemptionFee'] = "Redemption Fee";
+$_LANG['domainRenewal']['graceRenewalPeriodDescription'] = "Domains enter the Grace Period upon expiry. Once in this status, the domain may only be renewed for a maximum of the minimum registration period term.";
+$_LANG['domainRenewal']['hasExpired'] = "This domain has expired.";
+$_LANG['domainRenewal']['expiringIn'] = "Expiring in :days days";
+$_LANG['domainRenewal']['expiredDaysAgo'] = "Expired :days days ago";
+$_LANG['domainRenewal']['noDomains'] = "You do not currently have any domains that are eligible for renewal";
+$_LANG['domainRenewal']['showingDomains'] = "Showing :showing of :totalCount domains";
+$_LANG['domainRenewal']['showAll'] = "Show All";
+$_LANG['domainRenewal']['maximumAdvanceRenewal'] = "Maximum Advance Renewal is :days Day(s)";
+
+$_LANG['navMarketConnectService']['sitelock'] = "Website Security";
+$_LANG['store']['sitelock']['title'] = "SiteLock Website Security";
+$_LANG['store']['sitelock']['tagline'] = "Automatically scan your website for malware and protect online reputation";
+$_LANG['store']['sitelock']['manageService'] = "Manage your SiteLock Service";
+$_LANG['store']['sitelock']['cartShortDescription'] = "SiteLock provides a range of features designed to protect both your website and your businessβ€™ reputation.";
+
+$_LANG['learnmore'] = "Learn more";
+$_LANG['category'] = "Category";
+$_LANG['changeCurrency'] = "Change Currency";
+
+$_LANG['store']['ssl']['competitiveUpgrade'] = "Competitive Upgrade";
+$_LANG['store']['ssl']['competitiveUpgradeBannerMsg'] = "Your domain <em>:domain</em> has been successfully validated. Please choose a certificate type to continue and complete the checkout process.";
+$_LANG['store']['ssl']['competitiveUpgradeQualified'] = "Qualified for Competitive Upgrade";
+
+$_LANG['dismiss'] = "Dismiss";
+
+$_LANG['store']['emailServices']['manageService'] = "Login to SpamExperts Control Panel";
+
+$_LANG['noDomain'] = "No Domain";
+
+$_LANG['upgradeService']['serviceBeingUpgraded'] = "Service being upgraded";
+$_LANG['upgradeService']['chooseNew'] = "Choose New Product/Plan";
+$_LANG['upgradeService']['currentProduct'] = "Your Current Product";
+$_LANG['upgradeService']['recommended'] = "Recommended";
+$_LANG['upgradeService']['select'] = "Select";
+
+$_LANG['feeds']['itemsInBasket'] = "You have <b>:count</b> items in your basket";
+
+$_LANG['validation']['accepted'] = "The :attribute must be accepted.";
+$_LANG['validation']['active_url'] = "The :attribute is not a valid URL.";
+$_LANG['validation']['after'] = "The :attribute must be a date after :date.";
+$_LANG['validation']['alpha'] = "The :attribute may only contain letters.";
+$_LANG['validation']['alpha_dash'] = "The :attribute may only contain letters, numbers, and dashes.";
+$_LANG['validation']['alpha_num'] = "The :attribute may only contain letters and numbers.";
+$_LANG['validation']['array'] = "The :attribute must be an array.";
+$_LANG['validation']['before'] = "The :attribute must be a date before :date.";
+$_LANG['validation']['between']['numeric'] = "The :attribute must be between :min and :max.";
+$_LANG['validation']['between']['file'] = "The :attribute must be between :min and :max kilobytes.";
+$_LANG['validation']['between']['string'] = "The :attribute must be between :min and :max characters.";
+$_LANG['validation']['between']['array'] = "The :attribute must have between :min and :max items.";
+$_LANG['validation']['boolean'] = "The :attribute field must be true or false.";
+$_LANG['validation']['confirmed'] = "The :attribute confirmation does not match.";
+$_LANG['validation']['date'] = "The :attribute is not a valid date.";
+$_LANG['validation']['date_format'] = "The :attribute does not match the format :format.";
+$_LANG['validation']['different'] = "The :attribute and :other must be different.";
+$_LANG['validation']['digits'] = "The :attribute must be :digits digits.";
+$_LANG['validation']['digits_between'] = "The :attribute must be between :min and :max digits.";
+$_LANG['validation']['email'] = "The :attribute must be a valid email address.";
+$_LANG['validation']['exists'] = "The selected :attribute is invalid.";
+$_LANG['validation']['filled'] = "The :attribute field is required.";
+$_LANG['validation']['image'] = "The :attribute must be an image.";
+$_LANG['validation']['in'] = "The selected :attribute is invalid.";
+$_LANG['validation']['integer'] = "The :attribute must be an integer.";
+$_LANG['validation']['ip'] = "The :attribute must be a valid IP address.";
+$_LANG['validation']['json'] = "The :attribute must be a valid JSON string.";
+$_LANG['validation']['max']['numeric'] = "The :attribute may not be greater than :max.";
+$_LANG['validation']['max']['file'] = "The :attribute may not be greater than :max kilobytes.";
+$_LANG['validation']['max']['string'] = "The :attribute may not be greater than :max characters.";
+$_LANG['validation']['max']['array'] = "The :attribute may not have more than :max items.";
+$_LANG['validation']['mimes'] = "The :attribute must be a file of type: :values.";
+$_LANG['validation']['min']['numeric'] = "The :attribute must be at least :min.";
+$_LANG['validation']['min']['file'] = "The :attribute must be at least :min kilobytes.";
+$_LANG['validation']['min']['string'] = "The :attribute must be at least :min characters.";
+$_LANG['validation']['min']['array'] = "The :attribute must have at least :min items.";
+$_LANG['validation']['not_in'] = "The selected :attribute is invalid.";
+$_LANG['validation']['numeric'] = "The :attribute must be a number.";
+$_LANG['validation']['present'] = "The :attribute field must be present.";
+$_LANG['validation']['regex'] = "The :attribute format is invalid.";
+$_LANG['validation']['required'] = "The :attribute field is required.";
+$_LANG['validation']['required_if'] = "The :attribute field is required when :other is :value.";
+$_LANG['validation']['required_unless'] = "The :attribute field is required unless :other is in :values.";
+$_LANG['validation']['required_with'] = "The :attribute field is required when :values is present.";
+$_LANG['validation']['required_with_all'] = "The :attribute field is required when :values is present.";
+$_LANG['validation']['required_without'] = "The :attribute field is required when :values is not present.";
+$_LANG['validation']['required_without_all'] = "The :attribute field is required when none of :values are present.";
+$_LANG['validation']['same'] = "The :attribute and :other must match.";
+$_LANG['validation']['size']['numeric'] = "The :attribute must be :size.";
+$_LANG['validation']['size']['file'] = "The :attribute must be :size kilobytes.";
+$_LANG['validation']['size']['string'] = "The :attribute must be :size characters.";
+$_LANG['validation']['size']['array'] = "The :attribute must contain :size items.";
+$_LANG['validation']['string'] = "The :attribute must be a string.";
+$_LANG['validation']['timezone'] = "The :attribute must be a valid zone.";
+$_LANG['validation']['unique'] = "The :attribute has already been taken.";
+$_LANG['validation']['url'] = "The :attribute format is invalid.";
+
+$_LANG['orderErrorServerHostnameInvalid'] = "The hostname for your server is invalid.";
+$_LANG['orderErrorServerNameserversInvalid'] = "The nameserver prefix is invalid.";
+
+$_LANG['checkAll'] = "Check All";
+$_LANG['uncheckAll'] = "Uncheck All";
+
+$_LANG['maxmind']['manualReview'] = "Your order has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
+
+$_LANG['nodomain'] = "No domain specified";
+
+$_LANG['store']['ssl']['cartTitle'] = "Protect your site with SSL";
+$_LANG['store']['ssl']['cartShortDescription'] = "Add SSL to your web hosting to give visitors confidence that your website is safe and secure and help build trust.";
+
+$_LANG['store']['weebly']['cartTitle'] = "Powerful Website Builder";
+$_LANG['store']['weebly']['cartShortDescription'] = "Add Weebly's drag and drop website builder to your hosting to allow you to create an awesome looking website, store or blog.";
+
+$_LANG['store']['spamexperts']['cartTitle'] = "SpamExperts Email Security";
+$_LANG['store']['spamexperts']['cartShortDescription'] = "Add professional email security and archiving to your domain to protect and secure your email against attacks and malware.";
+
+$_LANG['store']['sitelock']['cartTitle'] = "SiteLock Website Security";
+
+$_LANG['store']['ssl']['promo']['sidebar']['title'] = "Add SSL to your website";
+$_LANG['store']['ssl']['promo']['sidebar']['body'] = "Activate the padlock icon and protect user privacy";
+
+$_LANG['store']['weebly']['promo']['sidebar']['title'] = "Powerful Site Builder";
+$_LANG['store']['weebly']['promo']['sidebar']['body'] = "Create a stunning website faster than ever with Weebly";
+
+$_LANG['store']['spamexperts']['promo']['sidebar']['title'] = "Get Spam Protection";
+$_LANG['store']['spamexperts']['promo']['sidebar']['body'] = "Stop spam in its tracks with professional spam filtering";
+
+$_LANG['store']['sitelock']['promo']['sidebar']['title'] = "Malware Protection";
+$_LANG['store']['sitelock']['promo']['sidebar']['body'] = "Automatically find malware and protect your online reputation";
+
+$_LANG['store']['recommendedForYou'] = "Recommended for you";
+$_LANG['store']['lastChance'] = "Last Chance";
+
+$_LANG['domains']['importantReminder'] = "Important Reminder";
+$_LANG['domains']['irtpNotice'] = "The changes you have made will enable the IRTP Transfer Lock for this domain.";
+$_LANG['domains']['optOut'] = "Opt-out of Transfer Lock (if available)";
+$_LANG['domains']['optOutReason'] = "Reason for Opt-Out (Optional)";
+$_LANG['domains']['contactChangePending'] = "Contact Change Pending";
+$_LANG['domains']['verificationRequired'] = "Verification Required";
+$_LANG['domains']['contactsChanged'] = "A request to change WHOIS information has triggered the contact verification process. An email has been sent to the registered domain owner to approve the changes.";
+$_LANG['domains']['contactsChangedDate'] = "A request to change WHOIS information has triggered the contact verification process. An email has been sent to the registered domain owner to approve the changes. This action must be completed by :date.";
+$_LANG['domains']['newRegistration'] = "An email has been sent to the registered domain owner. The verification must be completed to avoid suspension.";
+$_LANG['domains']['newRegistrationDate'] = "An email has been sent to the registered domain owner. The verification must be completed by :date to avoid suspension.";
+$_LANG['domains']['irtpLockEnabled'] = "IRTP Transfer Lock Enabled";
+$_LANG['domains']['irtpLockDescription'] = "This domain is currently locked for transfer due to a contact change or new registration.";
+$_LANG['domains']['irtpLockDescriptionDate'] = "This domain is currently locked for transfer due to a contact change or new registration. This will expire on :date.";
+$_LANG['domains']['resendNotification'] = "Resend Verification Email";
+$_LANG['domains']['resendNotificationQuestion'] = "Are you sure you wish to resend the email?";
+$_LANG['domains']['resendNotificationSuccess'] = "The verification email has been resent.";
+$_LANG['domains']['modifyPending'] = "Verification Required";
+$_LANG['domains']['changePending'] = "Your requested change has triggered the contact verification process. An ownership verification email has been sent to :email. Click on the link in the email to apply the changes.";
+$_LANG['domains']['changePendingDate'] = "Your requested change has triggered the contact verification process. An ownership verification email has been sent to :email. Click on the link in the email within :days days to apply the changes.";
+$_LANG['domains']['changePendingFormRequired'] = "Your change of Registrant contact information was submitted successfully. In order to complete the process, you are required to complete a <strong>Change of Registrant</strong> form. Please visit :form, complete the form following the instructions and return it to us to finalize the process.";
+
+$_LANG['getStartedNow'] = "Get Started Now";
+$_LANG['notificationsnew'] = "NEW";
+
+$_LANG['store']['websiteBuilder']['tab']['overview'] = "Overview";
+$_LANG['store']['websiteBuilder']['tab']['features'] = "Features";
+$_LANG['store']['websiteBuilder']['tab']['pricing'] = "Pricing";
+$_LANG['store']['websiteBuilder']['tab']['faq'] = "FAQ";
+$_LANG['store']['websiteBuilder']['ddEditor'] = "Drag & Drop Builder";
+$_LANG['store']['websiteBuilder']['ddEditorDescription'] = "The easy drag & drop builder allows you to create a professional website with no technical skills required. Choose different elements to add photos, maps or videos by just dragging and dropping them into place, right from your web browser.";
+$_LANG['store']['websiteBuilder']['features']['builder'] = "Builder";
+$_LANG['store']['websiteBuilder']['features']['builderDescription'] = "Create the perfect website with powerful drag and drop tools";
+$_LANG['store']['websiteBuilder']['features']['ecommerce'] = "E-Commerce";
+$_LANG['store']['websiteBuilder']['features']['ecommerceDescription'] = "Complete e-commerce solution to grow your business online";
+$_LANG['store']['websiteBuilder']['features']['forms'] = "Forms";
+$_LANG['store']['websiteBuilder']['features']['formsDescription'] = "Create custom contact forms, RSVP lists and surveys";
+$_LANG['store']['websiteBuilder']['features']['templates'] = "Templates";
+$_LANG['store']['websiteBuilder']['features']['templatesDescription'] = "Professionally designed website templates with full customisation";
+$_LANG['store']['websiteBuilder']['features']['gallery'] = "Photos";
+$_LANG['store']['websiteBuilder']['features']['galleryDescription'] = "Create galleries, slideshows and custom backgrounds";
+$_LANG['store']['websiteBuilder']['features']['blogging'] = "Blogging";
+$_LANG['store']['websiteBuilder']['features']['bloggingDescription'] = "Make an amazing blog in minutes";
+$_LANG['store']['websiteBuilder']['features']['video'] = "Video";
+$_LANG['store']['websiteBuilder']['features']['videoDescription'] = "Embed video from popular services or host your own";
+$_LANG['store']['websiteBuilder']['features']['seo'] = "SEO";
+$_LANG['store']['websiteBuilder']['features']['seoDescription'] = "Powerful SEO tools to help search engines find you";
+$_LANG['store']['websiteBuilder']['pricing']['lite']['headline'] = "Try Weebly";
+$_LANG['store']['websiteBuilder']['pricing']['lite']['tagline'] = "Everything you need to create a 1 page site";
+$_LANG['store']['websiteBuilder']['pricing']['idealFor'] = "Ideal for :for";
+$_LANG['store']['websiteBuilder']['pricing']['siteFeatures'] = "Site Features";
+$_LANG['store']['websiteBuilder']['pricing']['eCommerceFeatures'] = "eCommerce Features";
+$_LANG['store']['websiteBuilder']['pricing']['features']['ddBuilder'] = "Drag & Drop Builder";
+$_LANG['store']['websiteBuilder']['pricing']['features']['pages'] = "Unlimited Pages";
+$_LANG['store']['websiteBuilder']['pricing']['features']['noAds'] = "No Weebly Ads";
+$_LANG['store']['websiteBuilder']['pricing']['features']['search'] = "Site Search";
+$_LANG['store']['websiteBuilder']['pricing']['features']['passwords'] = "Password Protection";
+$_LANG['store']['websiteBuilder']['pricing']['features']['backgrounds'] = "Video Backgrounds";
+$_LANG['store']['websiteBuilder']['pricing']['features']['hdVideo'] = "HD Video & Audio";
+$_LANG['store']['websiteBuilder']['pricing']['features']['memberCount'] = "Up to 100 Members";
+$_LANG['store']['websiteBuilder']['pricing']['features']['registration'] = "Membership Registration";
+$_LANG['store']['websiteBuilder']['pricing']['features']['emailCampaigns'] = "Email Campaigns";
+$_LANG['store']['websiteBuilder']['pricing']['features']['3pcFee'] = "3% Weebly Transaction Fees";
+$_LANG['store']['websiteBuilder']['pricing']['features']['tenProducts'] = "Up to 10 Products";
+$_LANG['store']['websiteBuilder']['pricing']['features']['checkoutOnWeebly'] = "Checkout on Weebly.com";
+$_LANG['store']['websiteBuilder']['pricing']['features']['twentyFiveProducts'] = "Up to 25 Products";
+$_LANG['store']['websiteBuilder']['pricing']['features']['0pcFee'] = "0% Weebly Transaction Fees";
+$_LANG['store']['websiteBuilder']['pricing']['features']['unlimitedProducts'] = "Unlimited Products";
+$_LANG['store']['websiteBuilder']['pricing']['features']['checkoutDomain'] = "Checkout on your domain";
+$_LANG['store']['websiteBuilder']['pricing']['features']['inventory'] = "Inventory Management";
+$_LANG['store']['websiteBuilder']['pricing']['features']['coupons'] = "Coupons";
+$_LANG['store']['websiteBuilder']['pricing']['features']['tax'] = "Tax Calculator";
+$_LANG['store']['websiteBuilder']['pricing']['features']['shipping'] = "Real Time Shipping Rates";
+$_LANG['store']['websiteBuilder']['pricing']['features']['abandonedCart'] = "Abandoned Cart Emails";
+$_LANG['store']['websiteBuilder']['pricing']['features']['giftCards'] = "Gift Cards";
+$_LANG['store']['websiteBuilder']['adminPreview'] = "Weebly plans you activate will be displayed here";
+$_LANG['store']['websiteBuilder']['faq']['title'] = "Frequently Asked Questions";
+$_LANG['store']['websiteBuilder']['faq']['q1'] = "Can I create a blog?";
+$_LANG['store']['websiteBuilder']['faq']['q2'] = "Will my site be mobile friendly?";
+$_LANG['store']['websiteBuilder']['faq']['q3'] = "Can I add photos to my website?";
+$_LANG['store']['websiteBuilder']['faq']['q4'] = "Can I sell products through my site?";
+$_LANG['store']['websiteBuilder']['faq']['q5'] = "Can I add forms to my site?";
+$_LANG['store']['websiteBuilder']['faq']['q6'] = "How do I get my site into search engines?";
+$_LANG['store']['websiteBuilder']['faq']['q7'] = "Are there multiple styles to choose from?";
+$_LANG['store']['websiteBuilder']['faq']['q8'] = "Can I upgrade?";
+$_LANG['store']['websiteBuilder']['faq']['a1'] = "Yes the website builder allows you to include blog functionality.";
+$_LANG['store']['websiteBuilder']['faq']['a2'] = "Yes all websites created with the Weebly site builder are optimised for mobile.";
+$_LANG['store']['websiteBuilder']['faq']['a3'] = "Yes, you can add photos to your site, but HD Video and Audio are only available on Pro & Business plans.";
+$_LANG['store']['websiteBuilder']['faq']['a4'] = "Yes eCommerce functionality is included with all plans but the number of products you can offer varies.";
+$_LANG['store']['websiteBuilder']['faq']['a5'] = "Yes the Weebly site builder makes it easy to create contact forms, RSVP lists, surveys and more.";
+$_LANG['store']['websiteBuilder']['faq']['a6'] = "All Weebly powered websites include powerful SEO tools to help maximise your search engine ranking.";
+$_LANG['store']['websiteBuilder']['faq']['a7'] = "Yes there are multiple pre-made templates for you to choose from.";
+$_LANG['store']['websiteBuilder']['faq']['a8'] = "Yes you can upgrade at any time. Simply login to your account and choose the upgrade option.";
+$_LANG['store']['websiteBuilder']['trust'] = "Trusted by over 40,000,000 people worldwide";
+$_LANG['store']['toggleNav'] = "Toggle navigation";
+$_LANG['store']['websiteBuilder']['upgrade']['title'] = "Weebly Upgrade";
+$_LANG['store']['websiteBuilder']['upgrade']['required'] = "Upgrade Required";
+$_LANG['store']['websiteBuilder']['upgrade']['requiredDescription'] = "To access the functionality you requested, you need to upgrade your Weebly Site Builder plan.";
+$_LANG['store']['websiteBuilder']['upgrade']['recommended'] = "The recommended plan is displayed.";
+$_LANG['store']['websiteBuilder']['upgrade']['login'] = "To view the available options, please login.";
+$_LANG['store']['websiteBuilder']['upgrade']['no'] = "No upgrade available";
+$_LANG['store']['websiteBuilder']['upgrade']['noUpgrade'] = "There is no upgrade available at this time.";
+$_LANG['store']['websiteBuilder']['upgrade']['submitTicket'] = "Contact support";
+$_LANG['store']['websiteBuilder']['upgrade']['to'] = "Upgrade to :product for :amount";
+$_LANG['store']['websiteBuilder']['upgrade']['noPlans'] = "No active Weebly plans found";
+$_LANG['store']['websiteBuilder']['upgrade']['loggedInAs'] = "You are currently logged in as :email";
+$_LANG['store']['websiteBuilder']['upgrade']['switchUser'] = "Logout/switch user";
+
+$_LANG['tax']['taxLabel'] = "Tax ID";
+$_LANG['tax']['vatLabel'] = "VAT Number";
+$_LANG['tax']['errorInvalid'] = "The supplied :taxLabel is not valid";
+
+$_LANG['fraud']['checkConfiguration'] = "An error occurred with the Fraud Check. Please contact support.";
+$_LANG['fraud']['title'] = "Fraud Check";
+$_LANG['fraud']['error'] = "Error";
+$_LANG['fraud']['manualReview'] = "Your order has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
+$_LANG['fraud']['highFraudRiskScore'] = "Your order has been flagged as potentially high risk and therefore it has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
+$_LANG['fraud']['countryMismatch'] = "The country of your IP address did not match the billing address country you entered so we cannot accept your order";
+$_LANG['fraud']['highRiskCountry'] = "Unfortunately, we are unable to accept your order as there has been a lot of fraudulent activity from your country. If you want to arrange an alternative means of payment, please contact us.";
+$_LANG['fraud']['anonymousProxy'] = "We do not allow orders to be placed using an Anonymous Proxy";
+
+$_LANG['navMarketConnectService']['codeguard'] = "Website Backup";
+$_LANG['store']['codeguard']['cartTitle'] = "CodeGuard Website Backup";
+$_LANG['store']['codeguard']['cartShortDescription'] = "Protect your website against data loss and attacks with daily automated backups and one-click automatic restore.";
+$_LANG['store']['codeGuard']['title'] = "CodeGuard Backup";
+$_LANG['store']['codeGuard']['headline'] = "Protect <span>your website</span> with daily automated backups";
+$_LANG['store']['codeGuard']['tagline'] = "Get protection against viruses, hackers and even your own code accidentally breaking your site with CodeGuard Website Backup.";
+$_LANG['store']['codeGuard']['tab']['overview'] = "Overview";
+$_LANG['store']['codeGuard']['tab']['pricing'] = "Pricing";
+$_LANG['store']['codeGuard']['tab']['features'] = "Features";
+$_LANG['store']['codeGuard']['tab']['faq'] = "FAQ";
+$_LANG['store']['codeGuard']['leadTitle'] = "<strong><em>Every 0.65 seconds</em></strong>, a new web page is infected with malware.";
+$_LANG['store']['codeGuard']['leadText1'] = "Protect your site from <strong>data loss and corruption</strong>, as well as against threats from <strong>viruses, hackers and malware</strong> with Daily Automated Website Backups from CodeGuard.";
+$_LANG['store']['codeGuard']['leadText2'] = "With CodeGuard Website Backup, your website is backed up daily and if disaster strikes, you can restore your site to a previous point in time at the click of a button.";
+$_LANG['store']['codeGuard']['dailyBackup'] = "Automatic Daily Backups";
+$_LANG['store']['codeGuard']['malwareProtection'] = "Malware Detection and Restore";
+$_LANG['store']['codeGuard']['timeMachine'] = "Website Time Machine";
+$_LANG['store']['codeGuard']['wpPlugin'] = "WordPress Plugin Updates";
+$_LANG['store']['codeGuard']['changeAlerts'] = "File Change Alert Monitoring";
+$_LANG['store']['codeGuard']['features']['dailyBackup'] = "Daily Automatic Website Backups";
+$_LANG['store']['codeGuard']['features']['dailyBackupDescription'] = "Secure your website with automated daily backups stored offsite with built-in redundancy.";
+$_LANG['store']['codeGuard']['features']['unlimitedFiles'] = "Unlimited Files & Databases";
+$_LANG['store']['codeGuard']['features']['unlimitedFilesDescription'] = "Backup an unlimited number of files and databases - you are restricted only by the storage space you use.";
+$_LANG['store']['codeGuard']['features']['oneClickRestore'] = "One-Click Restores";
+$_LANG['store']['codeGuard']['features']['oneClickRestoreDescription'] = "A simple restore process makes it easy to rollback a single file or your entire website to a previous version.";
+$_LANG['store']['codeGuard']['features']['malwareMonitoring'] = "Malware Monitoring";
+$_LANG['store']['codeGuard']['features']['malwareMonitoringDescription'] = "Rest easy knowing CodeGuard is diligently checking your site for changes every day.";
+$_LANG['store']['codeGuard']['features']['wp'] = "Automatic WordPress Updates";
+$_LANG['store']['codeGuard']['features']['wpDescription'] = "Automatically update WordPress and its plugins to keep it secure with auto recovery in case of problems.";
+$_LANG['store']['codeGuard']['features']['fileMonitoring'] = "File Change Monitoring";
+$_LANG['store']['codeGuard']['features']['fileMonitoringDescription'] = "Get notified by email anytime something changes within the source code of your site.";
+$_LANG['store']['codeGuard']['features']['servers'] = "Staging of Restores";
+$_LANG['store']['codeGuard']['features']['serversDescription'] = "Quickly test any backed up site with simple and automated staging prior to restore.";
+$_LANG['store']['codeGuard']['features']['email'] = "Email Backup";
+$_LANG['store']['codeGuard']['features']['emailDescription'] = "Get protection for your emails too as they are backed up as part of your websites files.";
+$_LANG['store']['codeGuard']['features']['api'] = "Full Automation";
+$_LANG['store']['codeGuard']['features']['apiDescription'] = "Completely hands free setup and ongoing backups with automated notifications if things go wrong.";
+$_LANG['store']['codeGuard']['chooseBackupPlan'] = "Choose Backup Storage";
+$_LANG['store']['codeGuard']['faq']['title'] = "Frequently Asked Questions";
+$_LANG['store']['codeGuard']['faq']['q1'] = "What is CodeGuard?";
+$_LANG['store']['codeGuard']['faq']['a1'] = "CodeGuard is a fully automated website backup service that gives you complete protection against data loss and malware.";
+$_LANG['store']['codeGuard']['faq']['q2'] = "Why do I need CodeGuard?";
+$_LANG['store']['codeGuard']['faq']['a2'] = "CodeGuard provides an independent offsite backup solution for your website along with daily monitoring to ensure your website is online and malware free.";
+$_LANG['store']['codeGuard']['faq']['q3'] = "How does it work?";
+$_LANG['store']['codeGuard']['faq']['a3'] = "CodeGuard takes daily automated snapshots of your website. Using these snapshots, you can restore your entire site or a specific file to an earlier version at any time.";
+$_LANG['store']['codeGuard']['faq']['q4'] = "What if I run out of storage?";
+$_LANG['store']['codeGuard']['faq']['a4'] = "Switching plans is easy! You can upgrade and increase your disk storage allowance in just a few simple clicks via our client area.";
+$_LANG['store']['codeGuard']['faq']['q5'] = "Where are backups stored?";
+$_LANG['store']['codeGuard']['faq']['a5'] = "Backups are stored on Amazon Web Services Simple Storage System which provides market leading resiliance and redundancy for your backups.";
+$_LANG['store']['codeGuard']['faq']['q6'] = "Are the backups encrypted?";
+$_LANG['store']['codeGuard']['faq']['a6'] = "Yes, backups are stored encrypted using the AES-256 Encryption Standard.";
+$_LANG['store']['codeGuard']['faq']['q7'] = "Do you backup databases?";
+$_LANG['store']['codeGuard']['faq']['a7'] = "Yes, databases can be backed up also. Database backups are supported for MySQL and MSSQL databases.";
+$_LANG['store']['codeGuard']['faq']['q8'] = "What is File Change Alert Monitoring?";
+$_LANG['store']['codeGuard']['faq']['a8'] = "CodeGuard can monitor and notify you by email when your website changes to alert you to new threats and malware.";
+$_LANG['store']['codeGuard']['faq']['q9'] = "What happens if my site gets infected?";
+$_LANG['store']['codeGuard']['faq']['a9'] = "With CodeGuard's daily snapshots, if your website gets attacked, you can restore to a previous uninfected version at any time.";
+
+$_LANG['store']['codeguard']['promo']['sidebar']['title'] = "Add Website Backup";
+$_LANG['store']['codeguard']['promo']['sidebar']['body'] = "Protect your website with daily automated backups";
+
+$_LANG['marketConnect']['codeguard']['manage'] = "Login to CodeGuard Control Panel";
+
+$_LANG['sslState']['sslInactive'] = "No SSL Detected. Click here to browse SSL options";
+$_LANG['sslState']['sslActive'] = "Valid SSL Detected. Expires :expiry";
+$_LANG['sslState']['sslUnknown'] = "Unable to validate SSL status";
+$_LANG['sslState']['validSsl'] = "Valid SSL Detected";
+$_LANG['sslState']['noSsl'] = "No SSL Detected";
+$_LANG['sslState']['sslInactiveService'] = "Service inactive";
+$_LANG['sslState']['sslInactiveDomain'] = "Domain inactive";
+$_LANG['sslState']['startDate'] = "SSL Start Date";
+$_LANG['sslState']['expiryDate'] = "SSL Expiry Date";
+$_LANG['sslState']['issuerName'] = "SSL Issuer Name";
+$_LANG['sslState']['sslStatus'] = "SSL Status";
+
+
+
 
 ////////// End of greek language file.  Do not place any translation strings below this line!
